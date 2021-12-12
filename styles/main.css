@@ -3,6 +3,27 @@
     color: #535768;
 }
 
+.blue-bg {
+    background-color: #0D0E40;
+}
+
+.hide {
+    visibility: hidden;
+}
+
+/* Navbar CSS */
+.nav-logo {
+    height: 42px;
+}
+
+.navbar .list-group-item {
+    cursor: pointer;
+}
+
+.navbar .list-group-item:hover {
+    background-color: #E5F4FF !important;
+}
+
 /* Brand Logos CSS */
 .brand-logo-container .row .col {
     text-align: center;
@@ -83,6 +104,15 @@
 /* Footer CSS */
 .footer-logo {
     width: 120px;
+}
+
+.footer-brand-logo {
+    width: 30px;
+}
+
+footer .dropdown-menu {
+    width: 400px !important;
+    border: none;
 }
 
 /* Responsive CSS */
