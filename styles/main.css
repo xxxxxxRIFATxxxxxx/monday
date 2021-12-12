@@ -1,0 +1,83 @@
+/* Brand Logos CSS */
+.brand-logo-container .row .col {
+    text-align: center;
+}
+
+.brand-logo {
+    max-height: 69px;
+    max-width: 244px;
+}
+
+/* Free Trial Banner CSS */
+.free-trial-container {
+    background-color: #2B2C5D;
+    padding: 100px 0;
+}
+
+.get-started-btn {
+    -webkit-text-size-adjust: 100%;
+    word-break: break-word;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    margin: 0;
+    text-transform: none;
+    position: relative;
+    -webkit-appearance: button;
+    border-radius: 40px;
+    border: none;
+    font-weight: 400;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    line-height: 17px;
+    overflow: hidden;
+    background-color: #fff;
+    color: #0F1048;
+    min-width: 130px;
+    transition: 0.1s ease background-color;
+    font-size: 16px;
+    padding: 16px 48px;
+    width: 210px;
+}
+
+.ladda-label {
+    -webkit-text-size-adjust: 100%;
+    word-break: break-word;
+    text-transform: none;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    line-height: 17px;
+    color: #0F1048;
+    font-size: 16px;
+    font-family: sofia-pro,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+    font-weight: 300;
+    position: relative;
+    display: inline-block;
+    transition: none !important;
+    z-index: 0;
+}
+
+.signup-arrow-wrapper {
+    -webkit-text-size-adjust: 100%;
+    word-break: break-word;
+    text-transform: none;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    line-height: 17px;
+    color: #0F1048;
+    font-size: 16px;
+    font-family: sofia-pro,Roboto,Helvetica,Arial,sans-serif;
+    box-sizing: border-box;
+    font-weight: 300;
+    padding-left: 10px;
+}
+
+/* Responsive CSS */
+@media only screen and (max-width: 600px) {
+    main {
+      text-align: center;
+    }
+}
