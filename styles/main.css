@@ -24,6 +24,14 @@
     background-color: #E5F4FF !important;
 }
 
+/* Work Without CSS */
+.work-icon {
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    background-color: #0D0E40;
+}
+
 /* Brand Logos CSS */
 .brand-logo-container .row .col {
     text-align: center;
@@ -119,5 +127,18 @@ footer .dropdown-menu {
 @media only screen and (max-width: 600px) {
     main, footer {
       text-align: center;
+    }
+
+    .work-without {
+        text-align: start !important;
+    }
+
+    .work-without > div {
+        text-align: start !important;
+    }
+
+    body > main > div.work-without.container-fluid.py-5.mb-5 > div.container.mb-5 {
+        padding-left: 0;
+        
     }
 }
