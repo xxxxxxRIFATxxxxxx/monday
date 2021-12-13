@@ -1,0 +1,6 @@
+/* Slider CSS */
+.slider-img {
+    width: fit-content; 
+    position: relative;
+    top: 30px;
+}
