@@ -1,0 +1,14 @@
+/* Side Bar CSS */
+.side-item-active {
+    background-color: #E5F4FF;
+    color: royalblue;
+}
+
+.list-group-item:hover {
+    background-color: #E5F4FF;
+}
+
+/* Search Box CSS */
+.search-input:focus {
+    box-shadow: none;
+}
