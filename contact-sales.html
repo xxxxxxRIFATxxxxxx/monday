@@ -22,7 +22,7 @@
 
     <!-- External CSS -->
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/template.css">
+    <link rel="stylesheet" href="styles/contact-sales.css">
 </head>
 
 <body>
@@ -286,78 +286,84 @@
     <div class="container my-5">
         <div class="row g-4 row-cols-1 row-cols-lg-2">
             <div class="col">
-                <form>
-                    <div class="row mb-3">
-                        <div class="col">
-                            <label for="first-name" class="form-label fs-5">First name</label>
-                            <input type="text" class="form-control py-2" name="first-name" id="first-name">
-                        </div>
+                <div class="form-container-2">
+                    <div class="form-container shadow">
+                        <form>
+                            <div class="row mb-3 row-cols-1 row-cols-md-2">
+                                <div class="col">
+                                    <label for="first-name" class="form-label fs-5">First name</label>
+                                    <input type="text" class="form-control py-2" name="first-name" id="first-name">
+                                </div>
 
-                        <div class="col">
-                            <label for="last-name" class="form-label fs-5">Last name</label>
-                            <input type="text" class="form-control py-2" name="last-name" id="last-name">
-                        </div>
+                                <div class="col">
+                                    <label for="last-name" class="form-label fs-5">Last name</label>
+                                    <input type="text" class="form-control py-2" name="last-name" id="last-name">
+                                </div>
+                            </div>
+
+                            <div class="row mb-3 row-cols-1 row-cols-md-2">
+                                <div class="col">
+                                    <label for="work-email" class="form-label fs-5">Work-email</label>
+                                    <input type="text" class="form-control py-2" name="work-email" id="work-email"
+                                        placeholder="name@company.com">
+                                </div>
+
+                                <div class="col">
+                                    <label for="job-title" class="form-label fs-5">Job-title</label>
+                                    <input type="text" class="form-control py-2" name="job-title" id="job-title">
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="phone-number" class="form-label fs-5">Phone number</label>
+                                    <input type="text" class="form-control py-2" name="phone-number" id="phone-number"
+                                        value="+880">
+                                </div>
+                            </div>
+
+                            <div class="row mb-3 row-cols-1 row-cols-md-2">
+                                <div class="col">
+                                    <label for="company-name" class="form-label fs-5">Company name</label>
+                                    <input type="text" class="form-control py-2" name="company-name" id="company-name">
+                                </div>
+
+                                <div class="col">
+                                    <label for="company-size" class="form-label fs-5">Company size</label>
+                                    <select class="form-select" name="company-size" id="company-size">
+                                        <option selected>Please select</option>
+                                        <option value="1-19">1-19</option>
+                                        <option value="20-49">20-49</option>
+                                        <option value="50-99">50-99</option>
+                                        <option value="100-250">100-250</option>
+                                        <option value="251-1500">251-1500</option>
+                                        <option value="1500+">1500+</option>
+                                    </select>
+                                </div>
+                            </div>
+
+                            <div class="row mb-3">
+                                <div class="col">
+                                    <label for="help" class="form-label fs-5">How can our team help you?</label>
+                                    <textarea rows="6" class="form-control py-2" name="help" id="help"
+                                        placeholder="Tell us more about your team and what work you'd like to manage with monday.com"></textarea>
+                                </div>
+                            </div>
+
+                            <div class="text-center">
+                                <small>
+                                    By clicking submit, I acknowledge receipt of the monday.com <a href="#">Privacy
+                                        policy</a>
+                                </small>
+                            </div>
+
+                            <div class="text-center mt-3">
+                                <button type="submit"
+                                    class="btn blue-bg rounded-pill text-white fs-4 px-4">Submit</button>
+                            </div>
+                        </form>
                     </div>
-
-                    <div class="row mb-3">
-                        <div class="col">
-                            <label for="work-email" class="form-label fs-5">Work-email</label>
-                            <input type="text" class="form-control py-2" name="work-email" id="work-email"
-                                placeholder="name@company.com">
-                        </div>
-
-                        <div class="col">
-                            <label for="job-title" class="form-label fs-5">Job-title</label>
-                            <input type="text" class="form-control py-2" name="job-title" id="job-title">
-                        </div>
-                    </div>
-
-                    <div class="row mb-3">
-                        <div class="col">
-                            <label for="phone-number" class="form-label fs-5">Phone number</label>
-                            <input type="text" class="form-control py-2" name="phone-number" id="phone-number"
-                                value="+880">
-                        </div>
-                    </div>
-
-                    <div class="row mb-3">
-                        <div class="col">
-                            <label for="company-name" class="form-label fs-5">Company name</label>
-                            <input type="text" class="form-control py-2" name="company-name" id="company-name">
-                        </div>
-
-                        <div class="col">
-                            <label for="company-size" class="form-label fs-5">Company size</label>
-                            <select class="form-select" name="company-size" id="company-size">
-                                <option selected>Please select</option>
-                                <option value="1-19">1-19</option>
-                                <option value="20-49">20-49</option>
-                                <option value="50-99">50-99</option>
-                                <option value="100-250">100-250</option>
-                                <option value="251-1500">251-1500</option>
-                                <option value="1500+">1500+</option>
-                            </select>
-                        </div>
-                    </div>
-
-                    <div class="row mb-3">
-                        <div class="col">
-                            <label for="help" class="form-label fs-5">How can our team help you?</label>
-                            <textarea rows="6" class="form-control py-2" name="help" id="help"
-                                placeholder="Tell us more about your team and what work you'd like to manage with monday.com"></textarea>
-                        </div>
-                    </div>
-
-                    <div class="text-center">
-                        <small>
-                            By clicking submit, I acknowledge receipt of the monday.com <a href="#">Privacy policy</a>
-                        </small>
-                    </div>
-
-                    <div class="text-center mt-3">
-                        <button type="submit" class="btn blue-bg rounded-pill text-white fs-4 px-4">Submit</button>
-                    </div>
-                </form>
+                </div>
             </div>
 
             <div class="col">

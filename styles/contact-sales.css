@@ -1,0 +1,12 @@
+.form-container-2 {
+    border-left: 15px solid #9697E2;
+    background-color: #6666D2;
+    border-radius: 25px;
+}
+
+.form-container {
+    border-left: 15px solid #6666D2;
+    padding: 40px;
+    border-radius: 25px;
+    background-color: white;
+}
