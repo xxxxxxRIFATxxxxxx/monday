@@ -22,7 +22,7 @@
 
     <!-- External CSS -->
     <link rel="stylesheet" href="styles/main.css">
-    <link rel="stylesheet" href="styles/pricing.css">
+    <link rel="stylesheet" href="styles/template.css">
 </head>
 
 <body>
@@ -284,504 +284,149 @@
 
     <!-- Main -->
     <div class="container my-5">
-        <!-- Banner -->
-        <div class="container-fluid mb-5">
-            <h2 class="display-6 text-center fw-bold mb-4">
-                Supercharge your teamwork. Start <span class="text-primary">free</span>.
-            </h2>
+        <div class="row g-4 row-cols-1 row-cols-lg-2">
+            <div class="col">
+                <form>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="first-name" class="form-label fs-5">First name</label>
+                            <input type="text" class="form-control py-2" name="first-name" id="first-name">
+                        </div>
 
-            <p class="text-center fs-5 mb-4">
-                Unlimited boards and workflows. No credit card needed.
-            </p>
+                        <div class="col">
+                            <label for="last-name" class="form-label fs-5">Last name</label>
+                            <input type="text" class="form-control py-2" name="last-name" id="last-name">
+                        </div>
+                    </div>
 
-            <div class="mx-auto" style="width: 170px;">
-                <a class="nav-link btn rounded-pill blue-bg px-3" href="#">
-                    <span class="ladda-label">
-                        <span class="signup-text text-white">
-                            Get Started
-                        </span>
-                        <span class="signup-arrow-wrapper">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="11" viewBox="0 0 8 14">
-                                <path fill="white"
-                                    d="M.313 12.045l5.113-5.112L.313 1.821A1.065 1.065 0 1 1 1.82.312L7.687 6.18a1.064 1.064 0 0 1 0 1.508L1.82 13.554a1.065 1.065 0 1 1-1.507-1.508z">
-                                </path>
-                            </svg>
-                        </span>
-                    </span>
-                </a>
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="work-email" class="form-label fs-5">Work-email</label>
+                            <input type="text" class="form-control py-2" name="work-email" id="work-email"
+                                placeholder="name@company.com">
+                        </div>
+
+                        <div class="col">
+                            <label for="job-title" class="form-label fs-5">Job-title</label>
+                            <input type="text" class="form-control py-2" name="job-title" id="job-title">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="phone-number" class="form-label fs-5">Phone number</label>
+                            <input type="text" class="form-control py-2" name="phone-number" id="phone-number"
+                                value="+880">
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="company-name" class="form-label fs-5">Company name</label>
+                            <input type="text" class="form-control py-2" name="company-name" id="company-name">
+                        </div>
+
+                        <div class="col">
+                            <label for="company-size" class="form-label fs-5">Company size</label>
+                            <select class="form-select" name="company-size" id="company-size">
+                                <option selected>Please select</option>
+                                <option value="1-19">1-19</option>
+                                <option value="20-49">20-49</option>
+                                <option value="50-99">50-99</option>
+                                <option value="100-250">100-250</option>
+                                <option value="251-1500">251-1500</option>
+                                <option value="1500+">1500+</option>
+                            </select>
+                        </div>
+                    </div>
+
+                    <div class="row mb-3">
+                        <div class="col">
+                            <label for="help" class="form-label fs-5">How can our team help you?</label>
+                            <textarea rows="6" class="form-control py-2" name="help" id="help"
+                                placeholder="Tell us more about your team and what work you'd like to manage with monday.com"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="text-center">
+                        <small>
+                            By clicking submit, I acknowledge receipt of the monday.com <a href="#">Privacy policy</a>
+                        </small>
+                    </div>
+
+                    <div class="text-center mt-3">
+                        <button type="submit" class="btn blue-bg rounded-pill text-white fs-4 px-4">Submit</button>
+                    </div>
+                </form>
             </div>
-        </div>
 
-        <!-- Price Cards -->
-        <div class="container mb-5">
-            <div class="row g-2">
-                <div class="col-12 col-lg-8">
-                    **All prices below are just an estimate and subject to change Depending your project complexity.
-                    Please contact live support to get a quote!
+            <div class="col">
+                <h4 class="display-6 fw-bold text-center mb-5">
+                    Contact our Sales Team
+                </h4>
+
+                <div class="d-flex align-items-center mb-5">
+                    <div class="text-center border-end border-3">
+                        <img class="img-fluid" src="images/countries_icon.png" alt="">
+                        <p>Across <span class="fw-bold">190+</span> countries</p>
+                    </div>
+                    <p class="px-4">
+                        Meet with a product consultant to see how monday.com can fit your exact business needs
+                    </p>
                 </div>
 
-                <div class="col-12 col-lg-4 text-primary text-end">
-                    Project Based Price Plans
+                <div class="d-flex align-items-center mb-5">
+                    <div class="text-center border-end border-3">
+                        <img class="img-fluid" src="images/countries_icon.png" alt="">
+                        <p>Across <span class="fw-bold">190+</span> countries</p>
+                    </div>
+                    <p class="px-4">
+                        Meet with a product consultant to see how monday.com can fit your exact business needs
+                    </p>
                 </div>
-            </div>
 
-            <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4 g-4 mt-4">
-                <!-- Card -->
-                <div class="col">
-                    <div class="card h-100" style="border-top: 10px solid rgb(88, 118, 252);">
-                        <div class="card-body">
-                            <h3 class="card-title">Basic</h3>
-                            <h2 class="display-4 text-primary">$350</h2>
-                            <h5 class="mb-0 mt-3">Total $350 / Project</h5>
-                            <span class="text-muted">Once Time Payment</span>
-                            <div class="mt-3">
-                                <button class="btn rounded-pill blue-bg text-white px-4">Get Started</button>
+                <div class="d-flex align-items-center mb-5">
+                    <div class="text-center border-end border-3">
+                        <img class="img-fluid" src="images/countries_icon.png" alt="">
+                        <p>Across <span class="fw-bold">190+</span> countries</p>
+                    </div>
+                    <p class="px-4">
+                        Meet with a product consultant to see how monday.com can fit your exact business needs
+                    </p>
+                </div>
 
-                                <p class="card-text text-muted mt-3">
-                                    Basic Website such as Magazine, Blogs, Portfolio, News, Landing pages etc
-                                </p>
-                            </div>
+                <small>
+                    For general questions visit our <a href="#">Help Center</a>
+                </small>
 
-                            <div class="my-5">
-                                <hr>
+                <div class="mt-5">
+                    <h6>Trusted by top companies and brands</h6>
+                    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-4">
+                        <div class="col">
+                            <img class="img-fluid w-50"
+                                src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/uber.png"
+                                alt="">
+                        </div>
 
-                                <div class="mt-4">
-                                    <h5>Individual plan includes:</h5>
+                        <div class="col">
+                            <img class="img-fluid w-50"
+                                src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/uber.png"
+                                alt="">
+                        </div>
 
-                                    <ul class="list-group mt-4">
-                                        <li
-                                            class="list-group-item border-0 p-0 d-flex align-items-center justify-content-between mb-3">
-                                            <span>Unlimited boards</span>
-                                            <svg width="18" height="18" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <title>info copy</title>
-                                                <path
-                                                    d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm.5-3.892c0 .251-.224.454-.5.454s-.5-.203-.5-.454V7.392c0-.251.224-.455.5-.455s.5.204.5.455v4.716zm-.469-6.483a.781.781 0 1 1 0-1.562.781.781 0 0 1 0 1.562zM8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14z"
-                                                    fill="#333" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </li>
+                        <div class="col">
+                            <img class="img-fluid w-50"
+                                src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/uber.png"
+                                alt="">
+                        </div>
 
-                                        <li
-                                            class="list-group-item border-0 p-0 d-flex align-items-center justify-content-between mb-3">
-                                            <span>Unlimited boards</span>
-                                            <svg width="18" height="18" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <title>info copy</title>
-                                                <path
-                                                    d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm.5-3.892c0 .251-.224.454-.5.454s-.5-.203-.5-.454V7.392c0-.251.224-.455.5-.455s.5.204.5.455v4.716zm-.469-6.483a.781.781 0 1 1 0-1.562.781.781 0 0 1 0 1.562zM8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14z"
-                                                    fill="#333" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </li>
-
-                                        <li
-                                            class="list-group-item border-0 p-0 d-flex align-items-center justify-content-between mb-3">
-                                            <span>Unlimited boards</span>
-                                            <svg width="18" height="18" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <title>info copy</title>
-                                                <path
-                                                    d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm.5-3.892c0 .251-.224.454-.5.454s-.5-.203-.5-.454V7.392c0-.251.224-.455.5-.455s.5.204.5.455v4.716zm-.469-6.483a.781.781 0 1 1 0-1.562.781.781 0 0 1 0 1.562zM8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14z"
-                                                    fill="#333" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
+                        <div class="col">
+                            <img class="img-fluid w-50"
+                                src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/uber.png"
+                                alt="">
                         </div>
                     </div>
                 </div>
-
-                <!-- Card -->
-                <div class="col">
-                    <div class="card h-100" style="border-top: 10px solid rgb(115, 233, 125);">
-                        <div class="card-body">
-                            <h3 class="card-title">Standard</h3>
-                            <h2 class="display-4 text-success">$650</h2>
-                            <h5 class="mb-0 mt-3">Total $650 / Project</h5>
-                            <span class="text-muted">Once Time Payment</span>
-                            <div class="mt-3">
-                                <button class="btn rounded-pill blue-bg text-white px-4">Try for free</button>
-
-                                <p class="card-text text-muted mt-3">
-                                    Standard level website with customized Admin Panel and different user roles
-                                </p>
-                            </div>
-
-                            <div class="my-5">
-                                <hr>
-
-                                <div class="mt-4">
-                                    <h5>Individual plan includes:</h5>
-
-                                    <ul class="list-group mt-4">
-                                        <li
-                                            class="list-group-item border-0 p-0 d-flex align-items-center justify-content-between mb-3">
-                                            <span>Unlimited boards</span>
-                                            <svg width="18" height="18" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <title>info copy</title>
-                                                <path
-                                                    d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm.5-3.892c0 .251-.224.454-.5.454s-.5-.203-.5-.454V7.392c0-.251.224-.455.5-.455s.5.204.5.455v4.716zm-.469-6.483a.781.781 0 1 1 0-1.562.781.781 0 0 1 0 1.562zM8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14z"
-                                                    fill="#333" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </li>
-
-                                        <li
-                                            class="list-group-item border-0 p-0 d-flex align-items-center justify-content-between mb-3">
-                                            <span>Unlimited boards</span>
-                                            <svg width="18" height="18" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <title>info copy</title>
-                                                <path
-                                                    d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm.5-3.892c0 .251-.224.454-.5.454s-.5-.203-.5-.454V7.392c0-.251.224-.455.5-.455s.5.204.5.455v4.716zm-.469-6.483a.781.781 0 1 1 0-1.562.781.781 0 0 1 0 1.562zM8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14z"
-                                                    fill="#333" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </li>
-
-                                        <li
-                                            class="list-group-item border-0 p-0 d-flex align-items-center justify-content-between mb-3">
-                                            <span>Unlimited boards</span>
-                                            <svg width="18" height="18" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <title>info copy</title>
-                                                <path
-                                                    d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm.5-3.892c0 .251-.224.454-.5.454s-.5-.203-.5-.454V7.392c0-.251.224-.455.5-.455s.5.204.5.455v4.716zm-.469-6.483a.781.781 0 1 1 0-1.562.781.781 0 0 1 0 1.562zM8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14z"
-                                                    fill="#333" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card -->
-                <div class="col">
-                    <div class="card h-100" style="border-top: 10px solid rgb(247, 84, 92);">
-                        <div class="card-body">
-                            <h3 class="card-title">Pro</h3>
-                            <h2 class="display-4 text-danger">$1200</h2>
-                            <h5 class="mb-0 mt-3">Total $1200 / Project</h5>
-                            <span class="text-muted">Once Time Payment</span>
-                            <div class="mt-3">
-                                <button class="btn rounded-pill blue-bg text-white px-4">Try for free</button>
-
-                                <p class="card-text text-muted mt-3">
-                                    Streamline and build your complex Project with customized admin panel and payment
-                                    integration
-                                </p>
-                            </div>
-
-                            <div class="my-5">
-                                <hr>
-
-                                <div class="mt-4">
-                                    <h5>Individual plan includes:</h5>
-
-                                    <ul class="list-group mt-4">
-                                        <li
-                                            class="list-group-item border-0 p-0 d-flex align-items-center justify-content-between mb-3">
-                                            <span>Unlimited boards</span>
-                                            <svg width="18" height="18" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <title>info copy</title>
-                                                <path
-                                                    d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm.5-3.892c0 .251-.224.454-.5.454s-.5-.203-.5-.454V7.392c0-.251.224-.455.5-.455s.5.204.5.455v4.716zm-.469-6.483a.781.781 0 1 1 0-1.562.781.781 0 0 1 0 1.562zM8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14z"
-                                                    fill="#333" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </li>
-
-                                        <li
-                                            class="list-group-item border-0 p-0 d-flex align-items-center justify-content-between mb-3">
-                                            <span>Unlimited boards</span>
-                                            <svg width="18" height="18" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <title>info copy</title>
-                                                <path
-                                                    d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm.5-3.892c0 .251-.224.454-.5.454s-.5-.203-.5-.454V7.392c0-.251.224-.455.5-.455s.5.204.5.455v4.716zm-.469-6.483a.781.781 0 1 1 0-1.562.781.781 0 0 1 0 1.562zM8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14z"
-                                                    fill="#333" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </li>
-
-                                        <li
-                                            class="list-group-item border-0 p-0 d-flex align-items-center justify-content-between mb-3">
-                                            <span>Unlimited boards</span>
-                                            <svg width="18" height="18" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <title>info copy</title>
-                                                <path
-                                                    d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm.5-3.892c0 .251-.224.454-.5.454s-.5-.203-.5-.454V7.392c0-.251.224-.455.5-.455s.5.204.5.455v4.716zm-.469-6.483a.781.781 0 1 1 0-1.562.781.781 0 0 1 0 1.562zM8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14z"
-                                                    fill="#333" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Card -->
-                <div class="col">
-                    <div class="card h-100" style="border-top: 10px solid rgb(88, 118, 252);">
-                        <div class="card-body">
-                            <h3 class="card-title">Enterprise</h3>
-                            <img class="img-fluid my-4 pb-2" src="images/contact_us_plan_enterprise.png" alt="">
-                            <div class="mt-3">
-                                <button class="btn rounded-pill border-primary px-4">Contact us</button>
-
-                                <p class="card-text text-muted mt-3 pb-4">
-                                    For organizations seeking enterprise-grade features
-                                </p>
-                            </div>
-
-                            <div class="my-5">
-                                <hr>
-
-                                <div class="mt-4">
-                                    <h5>Individual plan includes:</h5>
-
-                                    <ul class="list-group mt-4">
-                                        <li
-                                            class="list-group-item border-0 p-0 d-flex align-items-center justify-content-between mb-3">
-                                            <span>Unlimited boards</span>
-                                            <svg width="18" height="18" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <title>info copy</title>
-                                                <path
-                                                    d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm.5-3.892c0 .251-.224.454-.5.454s-.5-.203-.5-.454V7.392c0-.251.224-.455.5-.455s.5.204.5.455v4.716zm-.469-6.483a.781.781 0 1 1 0-1.562.781.781 0 0 1 0 1.562zM8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14z"
-                                                    fill="#333" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </li>
-
-                                        <li
-                                            class="list-group-item border-0 p-0 d-flex align-items-center justify-content-between mb-3">
-                                            <span>Unlimited boards</span>
-                                            <svg width="18" height="18" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <title>info copy</title>
-                                                <path
-                                                    d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm.5-3.892c0 .251-.224.454-.5.454s-.5-.203-.5-.454V7.392c0-.251.224-.455.5-.455s.5.204.5.455v4.716zm-.469-6.483a.781.781 0 1 1 0-1.562.781.781 0 0 1 0 1.562zM8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14z"
-                                                    fill="#333" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </li>
-
-                                        <li
-                                            class="list-group-item border-0 p-0 d-flex align-items-center justify-content-between mb-3">
-                                            <span>Unlimited boards</span>
-                                            <svg width="18" height="18" viewBox="0 0 16 16"
-                                                xmlns="http://www.w3.org/2000/svg">
-                                                <title>info copy</title>
-                                                <path
-                                                    d="M8 16A8 8 0 1 1 8 0a8 8 0 0 1 0 16zm.5-3.892c0 .251-.224.454-.5.454s-.5-.203-.5-.454V7.392c0-.251.224-.455.5-.455s.5.204.5.455v4.716zm-.469-6.483a.781.781 0 1 1 0-1.562.781.781 0 0 1 0 1.562zM8 15A7 7 0 1 0 8 1a7 7 0 0 0 0 14z"
-                                                    fill="#333" fill-rule="nonzero"></path>
-                                            </svg>
-                                        </li>
-                                    </ul>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Brands -->
-        <div class="container my-5 pt-5">
-            <h2 class="display-4 text-center">Over 135,000 organizations worldwide rely onmonday.com</h2>
-            <div class="row g-4 row-cols-1 row-cols-md-3 row-cols-lg-6 mt-3">
-                <div class="col text-center">
-                    <img class="img-fluid brand-logo"
-                        src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/hulu.png"
-                        alt="">
-                </div>
-
-                <div class="col text-center">
-                    <img class="img-fluid brand-logo"
-                        src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/bbc.png"
-                        alt="">
-                </div>
-
-                <div class="col text-center">
-                    <img class="img-fluid brand-logo"
-                        src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/universal.png"
-                        alt="">
-                </div>
-
-                <div class="col text-center">
-                    <img class="img-fluid brand-logo"
-                        src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/adobe.png"
-                        alt="">
-                </div>
-
-                <div class="col text-center">
-                    <img class="img-fluid brand-logo"
-                        src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/coca_cola.png"
-                        alt="">
-                </div>
-
-                <div class="col text-center">
-                    <img class="img-fluid brand-logo"
-                        src="https://dapulse-res.cloudinary.com/image/upload/f_auto,q_auto/remote_mondaycom_static/img/customers/logos-v2/hulu.png"
-                        alt="">
-                </div>
-            </div>
-        </div>
-
-        <!-- Slider -->
-        <div class="container my-5">
-            <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0"
-                        class="active bg-dark" aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
-                        aria-label="Slide 2" class="bg-dark"></button>
-                    <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
-                        aria-label="Slide 3" class="bg-dark"></button>
-                </div>
-
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <div class="border mx-auto slider-img">
-                            <img class="img-fluid" src="images/thoughtworks.png" alt="">
-                        </div>
-                        <div class="bg-light p-5 text-center">
-                            <p class="fs-3">
-                                Thanks to monday.com, we are now able to budget the team’s time and efforts much more
-                                scientifically, leading to increased operational efficiency.
-                            </p>
-
-                            <p class="fs-5">
-                                <span class="fw-bold">Samyuktha Shivakumar</span>
-                                | Global Marketing Operation Manager, ThoughtWorks
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="border mx-auto slider-img">
-                            <img class="img-fluid" src="images/telefonica.png" alt="">
-                        </div>
-                        <div class="bg-light p-5 text-center">
-                            <p class="fs-3">
-                                Thanks to monday.com, we are now able to budget the team’s time and efforts much more
-                                scientifically, leading to increased operational efficiency.
-                            </p>
-
-                            <p class="fs-5">
-                                <span class="fw-bold">Samyuktha Shivakumar</span>
-                                | Global Marketing Operation Manager, ThoughtWorks
-                            </p>
-                        </div>
-                    </div>
-
-                    <div class="carousel-item">
-                        <div class="border mx-auto slider-img">
-                            <img class="img-fluid" src="images/genpact.png" alt="">
-                        </div>
-                        <div class="bg-light p-5 text-center">
-                            <p class="fs-3">
-                                Thanks to monday.com, we are now able to budget the team’s time and efforts much more
-                                scientifically, leading to increased operational efficiency.
-                            </p>
-
-                            <p class="fs-5">
-                                <span class="fw-bold">Samyuktha Shivakumar</span>
-                                | Global Marketing Operation Manager, ThoughtWorks
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- FAQ -->
-        <div class="container my-5">
-            <h6 class="display-6 text-center mb-4">Frequently Asked Questions</h6>
-
-            <div class="accordion accordion-flush" id="accordionFlushExample">
-                <!-- Question  -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingOne">
-                        <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
-                            Is there a free version of monday.com?
-                        </button>
-                    </h2>
-                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            Yes! Our Individual Plan is for independent professionals looking to keep track of their
-                            tasks and work. If you are interested in using only the most essential features of
-                            monday.com, this is the plan for you!
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Question  -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingTwo">
-                        <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
-                            How much does monday.com cost?
-                        </button>
-                    </h2>
-                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
-                        data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            monday.com starts from $24 per month for 3 users and goes up from there based on your chosen
-                            plan and team size. If you are over 40 users, you can request a quote to get an exact price.
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Question  -->
-                <div class="accordion-item">
-                    <h2 class="accordion-header" id="flush-headingThree">
-                        <button class="accordion-button collapsed fs-4" type="button" data-bs-toggle="collapse"
-                            data-bs-target="#flush-collapseThree" aria-expanded="false"
-                            aria-controls="flush-collapseThree">
-                            Can you pay for monday.com monthly?
-                        </button>
-                    </h2>
-                    <div id="flush-collapseThree" class="accordion-collapse collapse"
-                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
-                        <div class="accordion-body">
-                            Yes, you can pay monthly for your account. Choose the monthly option on the pricing page and
-                            you will be able to pay on a per month basis. The monthly plan is not discounted so if you
-                            are looking to save, we recommend the yearly plan.
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Banner -->
-        <div class="container-fluid mb-5">
-            <h2 class="display-6 text-center fw-bold mb-4">
-                Start using monday.com today
-            </h2>
-
-            <p class="text-center fs-5 mb-4">
-                Try it now for free / No credit card needed
-            </p>
-
-            <div class="mx-auto" style="width: 170px;">
-                <a class="nav-link btn rounded-pill blue-bg px-3" href="#">
-                    <span class="ladda-label">
-                        <span class="signup-text text-white">
-                            Get Started
-                        </span>
-                        <span class="signup-arrow-wrapper">
-                            <svg xmlns="http://www.w3.org/2000/svg" width="8" height="11" viewBox="0 0 8 14">
-                                <path fill="white"
-                                    d="M.313 12.045l5.113-5.112L.313 1.821A1.065 1.065 0 1 1 1.82.312L7.687 6.18a1.064 1.064 0 0 1 0 1.508L1.82 13.554a1.065 1.065 0 1 1-1.507-1.508z">
-                                </path>
-                            </svg>
-                        </span>
-                    </span>
-                </a>
             </div>
         </div>
     </div>
