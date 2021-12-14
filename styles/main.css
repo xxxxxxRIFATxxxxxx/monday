@@ -109,6 +109,23 @@
     padding-left: 10px;
 }
 
+/* Integrate CSS */
+@-webkit-keyframes moving {
+    from {
+        transform: translateX(-200px);
+    }
+    to {
+        transform: translateX(1400px);
+    }
+}
+
+.integrate-logo {
+    -webkit-animation: linear infinite;
+    -webkit-animation-name: moving;
+    -webkit-animation-duration: 60s;
+    -webkit-animation-fill-mode: both; 
+}
+
 /* Footer CSS */
 .footer-logo {
     width: 120px;
