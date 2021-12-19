@@ -110,20 +110,44 @@
 }
 
 /* Integrate CSS */
-@-webkit-keyframes moving {
-    from {
-        transform: translateX(-200px);
-    }
-    to {
-        transform: translateX(1400px);
-    }
+.integrate .icons {
+    --w: clamp(50px, 10vmin, 100px); /* don't let the icons get too big or too small */
+    --n: 15; /* number of icons in each group (a group plus a copy of the group form a line) */
+    --m: calc(var(--w) / 20); /* margin on each icon */
+    /* for a totally general solution when there aren't many icons would need to adjust margin on each icon so one group at least fills width of viewport */
+    position: fixed;
+    bottom: 0;
+    z-index: 99999;
+    width: 50px;
 }
 
-.integrate-logo {
-    -webkit-animation: linear infinite;
-    -webkit-animation-name: moving;
-    -webkit-animation-duration: 60s;
-    -webkit-animation-fill-mode: both; 
+.integrate .line {
+    white-space: nowrap;
+    animation: scroll 20s infinite linear;
+    position: relative;
+    --y: 0%;
+}
+
+.integrate .line:nth-child(2) {
+    left: calc((var(--w) / -2) - var(--m)); /* offset the second line */
+    --y: -25%;
+}
+
+.integrate .line .icon {
+    width: 120px;
+    height: auto;
+    margin: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+@keyframes scroll {
+    0% {
+      transform: translateX(-50%) translateY(var(--y));
+    }
+    100% {
+      transform: translateX(0%) translateY(var(--y));
+    }
 }
 
 /* Footer CSS */
