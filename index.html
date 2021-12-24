@@ -24,11 +24,11 @@
     <link rel="stylesheet" href="styles/main.css">
 </head>
 
-<body>
+<body class="container">
     <!-- Header -->
     <header>
         <!-- Navbar -->
-        <nav class="container-fluid navbar navbar-expand-lg navbar-light">
+        <nav class="container-fluid navbar navbar-expand-lg navbar-light fixed-top bg-white container">
             <div class="container-fluid">
                 <!-- Logo -->
                 <a class="navbar-brand" href="index.html">
@@ -284,71 +284,61 @@
     <!-- Main -->
     <main>
         <!-- Work Without -->
-        <div class="work-without container-fluid py-5 mb-5">
+        <div class="work-without container-fluid py-5 my-5">
             <h1 class="display-2 fw-bold text-center">Work Without Limits</h1>
             <p class="text-center fs-4">Easily manage and scale anything you're working on with monday.com Work OS.
             </p>
 
-            <div class="row g-2 mb-3 text-center mt-4">
-                <div class="col-12 col-sm-12 col-md-4 col-lg-1"></div>                   
-
-                <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+            <div class="d-flex flex-column flex-lg-row justify-content-center mt-4">
+                <div class="me-4 mb-3">
                     <img alt="" class="img-fluid work-icon me-2" src="images/Projects_icon_circle.png">
                     <span class="fs-5">Projects</span>
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                <div class="me-4 mb-3">
                     <img alt="" class="img-fluid work-icon me-2" src="images/Marketing_icon_circle.png">
                     <span class="fs-5">Marketing</span>
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                <div class="me-4 mb-3">
                     <img alt="" class="img-fluid work-icon me-2" src="images/CRM_icon_circle.png">
                     <span class="fs-5">CRM</span>
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                <div class="me-4 mb-3">
                     <img alt="" class="img-fluid work-icon me-2" src="images/software_icon_circle.png">
                     <span class="fs-5">Software</span>
                 </div>
 
-                <div class="col-12 col-sm-12 col-md-4 col-lg-2">
+                <div class="mb-3">
                     <img alt="" class="img-fluid work-icon me-2" src="images/Creative_design_icon_circle.png">
                     <span class="fs-5">Creative & design</span>
                 </div>
-
-                <div class="col-12 col-sm-12 col-md-4 col-lg-1"></div>
             </div>
 
-            <div class="container mb-5">
-                <div class="row g-2 row-cols-1 row-cols-sm-1 row-cols-md-6 row-cols-lg-6">
-                    <div class="col"></div>
+            <div class="container d-flex flex-column flex-lg-row justify-content-center mt-3">
+                <div class="me-5 mb-3">
+                    <img alt="" class="img-fluid work-icon me-2" src="images/HR_icon_circle.png">
+                    <span class="fs-5">HR</span>
+                </div>
 
-                    <div class="col">
-                        <img alt="" class="img-fluid work-icon me-2" src="images/HR_icon_circle.png">
-                        <span class="fs-5">HR</span>
-                    </div>
+                <div class="me-5 mb-3">
+                    <img alt="" class="img-fluid work-icon me-2" src="images/Operations_icon_circle.png">
+                    <span class="fs-5">Operations</span>
+                </div>
 
-                    <div class="col">
-                        <img alt="" class="img-fluid work-icon me-2" src="images/Operations_icon_circle.png">
-                        <span class="fs-5">Operations</span>
-                    </div>
+                <div class="me-5 mb-3">
+                    <img alt="" class="img-fluid work-icon me-2" src="images/IT_icon_circle.png">
+                    <span class="fs-5">IT</span>
+                </div>
 
-                    <div class="col">
-                        <img alt="" class="img-fluid work-icon me-2" src="images/IT_icon_circle.png">
-                        <span class="fs-5">IT</span>
-                    </div>
-
-                    <div class="col">
-                        <img alt="" class="img-fluid work-icon me-2" src="images/200_workflows_icon_circle.png">
-                        <span class="fs-5">Workflows</span>
-                    </div>
-                    
-                    <div class="col"></div>
+                <div class="me-5 mb-3">
+                    <img alt="" class="img-fluid work-icon me-2" src="images/200_workflows_icon_circle.png">
+                    <span class="fs-5">Workflows</span>
                 </div>
             </div>
 
-            <div class="container mb-5">
+            <div class="container mb-5 mt-3">
                 <div class="row g-4 row-cols-1 text-center">
                     <div class="col">
                         <img alt="" class="img-fluid work-icon me-2" src="images/HR_icon_circle.png">
@@ -627,37 +617,39 @@
         </div>
 
         <!-- Customer Support -->
-        <div class="container mb-5">
-            <div class="row g-4 row row-cols-1 row-cols-sm-1 row-cols-md-2">
-                <div class="col">
-                    <img class="img-fluid" src="images/customer_support.png" alt="customer support">
-                </div>
-
-                <div class="col d-flex justify-content-center align-items-center">
-                    <div>
-                        <h2 class="display-6 mb-4">
-                            24/7 customer support
-                        </h2>
-
-                        <p class="text-muted fs-5">
-                            Our team is here to provide you with personalized and outstanding service. We also offer a
-                            range of self-learning tools in our support center:
-                        </p>
-
-                        <div class="d-flex flex-column flex-md-row">
-                            <div class="me-4">
-                                <i class="fas fa-check-circle text-info"></i>
-                                <span class="text-muted">Knowledge base</span>
-                            </div>
-
-                            <div class="me-4">
-                                <i class="fas fa-check-circle text-info"></i>
-                                <span class="text-muted">Daily webinars</span>
-                            </div>
-
-                            <div class="me-4">
-                                <i class="fas fa-check-circle text-info"></i>
-                                <span class="text-muted">Community</span>
+        <div class="bg-light">
+            <div class="container mb-5">
+                <div class="row g-4 row row-cols-1 row-cols-sm-1 row-cols-md-2">
+                    <div class="col">
+                        <img class="img-fluid" src="images/customer_support.png" alt="customer support">
+                    </div>
+    
+                    <div class="col d-flex justify-content-center align-items-center">
+                        <div>
+                            <h2 class="display-6 mb-4">
+                                24/7 customer support
+                            </h2>
+    
+                            <p class="text-muted fs-5">
+                                Our team is here to provide you with personalized and outstanding service. We also offer a
+                                range of self-learning tools in our support center:
+                            </p>
+    
+                            <div class="d-flex flex-column flex-md-row">
+                                <div class="me-4">
+                                    <i class="fas fa-check-circle text-info"></i>
+                                    <span class="text-muted">Knowledge base</span>
+                                </div>
+    
+                                <div class="me-4">
+                                    <i class="fas fa-check-circle text-info"></i>
+                                    <span class="text-muted">Daily webinars</span>
+                                </div>
+    
+                                <div class="me-4">
+                                    <i class="fas fa-check-circle text-info"></i>
+                                    <span class="text-muted">Community</span>
+                                </div>
                             </div>
                         </div>
                     </div>
@@ -731,10 +723,10 @@
             <h6 class="display-6 text-center mb-4">Reviews</h6>
 
             <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
-                <div class="carousel-indicators" style="position: relative; top:380px">
-                  <button style="background-color: silver;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
-                  <button style="background-color: silver;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
-                  <button style="background-color: silver;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <div class="carousel-indicators" style="top: 50vh;">
+                  <button class="mt-5" style="background-color: silver;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                  <button class="mt-5" style="background-color: silver;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                  <button class="mt-5" style="background-color: silver;" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
                 </div>
 
                 <div class="carousel-inner">
